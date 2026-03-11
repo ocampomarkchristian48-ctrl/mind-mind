@@ -1,25 +1,73 @@
 body{
-font-family:Arial;
-text-align:center;
-background:#222;
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+/* Background Design */
+background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+}
+
+/* Title */
+.title{
+font-size:90px;
 color:white;
+letter-spacing:5px;
+margin-bottom:40px;
+text-shadow:0 0 20px rgba(0,0,0,0.5);
 }
 
-.game{
-margin-top:100px;
+/* Center Box */
+.container{
+background:white;
+padding:50px;
+width:400px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+text-align:center;
 }
 
-button{
+/* Name Input */
+.name-box{
+width:100%;
+padding:15px;
+font-size:18px;
+border-radius:8px;
+border:2px solid #ccc;
+margin-bottom:20px;
+}
+
+/* Enter Button */
+.enter-btn{
+width:100%;
+padding:15px;
+font-size:18px;
+background:#2c5364;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+margin-bottom:25px;
+}
+
+.enter-btn:hover{
+background:#1c3b4a;
+}
+
+/* Language Buttons */
+.language button{
 padding:10px 20px;
 margin:5px;
 font-size:16px;
+border:none;
+border-radius:6px;
 cursor:pointer;
+background:#ddd;
 }
 
-.correct{
-color:lightgreen;
-}
-
-.wrong{
-color:red;
+.language button:hover{
+background:#bbb;
 }

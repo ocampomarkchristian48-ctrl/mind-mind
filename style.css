@@ -1,0 +1,25 @@
+body{
+font-family:Arial;
+text-align:center;
+background:#222;
+color:white;
+}
+
+.game{
+margin-top:100px;
+}
+
+button{
+padding:10px 20px;
+margin:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+.correct{
+color:lightgreen;
+}
+
+.wrong{
+color:red;
+}
